@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Christian/Christian.iml" filepath="$PROJECT_DIR$/Christian/Christian.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java.W2D3.Schoellhorn.Sander.iml" filepath="$PROJECT_DIR$/.idea/Java.W2D3.Schoellhorn.Sander.iml" />
+    </modules>
+  </component>
+</project>

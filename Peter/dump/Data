@@ -1,0 +1,19 @@
+/* arrayList Cities */
+
+ArrayList < String > cityList = new ArrayList < String > ();
+    cityList.add("Vienna");
+    cityList.add("Graz");
+    cityList.add("Linz");
+    cityList.add("Salzburg");
+    cityList.add("Innsbruck");
+    cityList.add("Klagenfurt");
+
+/* arrayList temperature */
+
+ArrayList < Integer > tempList = new ArrayList < Integer > ();
+    tempList.add(20);
+    tempList.add(21);
+    tempList.add(22);
+    tempList.add(23);
+    tempList.add(24);
+    tempList.add(25);

@@ -1,0 +1,58 @@
+import java.util.*;
+
+public class Austria {
+    String cname = "Austria";
+    static void display();
+
+        System.out.println(cname);
+};
+
+public class City extends Austria {
+
+    /* Constructor for City Objects */
+    public City(String name) {
+        .this = name;
+    };
+
+    public ArrayList LIST = new ArrayList();
+
+    /* Creation of City Objects */
+
+    City vienna = new City ("Vienna");
+    City graz = new City ("Graz");
+    City linz = new City ("Linz");
+    City salzburg = new City ("Salzburg");
+    City innsbruck = new City ("Innsbruck");
+    City klagenfurt = new City ("Klagenfurt");
+
+    LIST.add(vienna, graz, linz, salzburg, innsbruck, klagenfurt);
+
+    static void display();
+    {
+        System.out.println(LIST.City)
+    }
+
+}
+
+public class Temperature extends City {
+
+    /* Temperature Constructor */
+    public Temperature (int temp) {
+        .this = temp;
+    };
+    /* SCANNER TEMP INPUT */
+    public void getTemp() {
+
+        for (int i = 0; i < LIST.size() ; i++){
+            Scanner in = new Scanner(System.in);
+            System.out.println("Enter current temperature for " + LIST.City.get(i));
+            int temp = in.nextInt();
+            LIST.City.Temperature.set(i, temp)};
+        };
+    static void print() {
+        for (int i = 0; i < LIST.size() ; i++) {
+            System.out.println(LIST.City(i) + " = " + LIST.City.Temperature(i));
+        };
+    public static void main(String args[]) {
+        }
+}
